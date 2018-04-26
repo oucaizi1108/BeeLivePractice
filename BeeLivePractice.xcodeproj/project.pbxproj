@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		341DA6DF1F04991E00E0B002 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 341DA6DE1F04991E00E0B002 /* main.m */; };
+		341DA6E21F04991E00E0B002 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 341DA6E11F04991E00E0B002 /* AppDelegate.m */; };
+		341DA6E51F04991E00E0B002 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341DA6E41F04991E00E0B002 /* ViewController.m */; };
+		341DA6E81F04991E00E0B002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341DA6E61F04991E00E0B002 /* Main.storyboard */; };
+		341DA6EA1F04991E00E0B002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341DA6E91F04991E00E0B002 /* Assets.xcassets */; };
+		341DA6ED1F04991E00E0B002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341DA6EB1F04991E00E0B002 /* LaunchScreen.storyboard */; };
+		341DA6F81F04991E00E0B002 /* BeeLivePracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 341DA6F71F04991E00E0B002 /* BeeLivePracticeTests.m */; };
+		341DA7031F04991E00E0B002 /* BeeLivePracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 341DA7021F04991E00E0B002 /* BeeLivePracticeUITests.m */; };
+		341DA7181F04BD9000E0B002 /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 341DA7171F04BD9000E0B002 /* BHConfig.m */; };
+		341DA71B1F04C85200E0B002 /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 341DA71A1F04C85200E0B002 /* BHWatchDog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		341DA6F41F04991E00E0B002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341DA6D21F04991E00E0B002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341DA6D91F04991E00E0B002;
+			remoteInfo = BeeLivePractice;
+		};
+		341DA6FF1F04991E00E0B002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341DA6D21F04991E00E0B002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341DA6D91F04991E00E0B002;
+			remoteInfo = BeeLivePractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		341DA6DA1F04991E00E0B002 /* BeeLivePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeLivePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		341DA6DE1F04991E00E0B002 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		341DA6E01F04991E00E0B002 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		341DA6E11F04991E00E0B002 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		341DA6E31F04991E00E0B002 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		341DA6E41F04991E00E0B002 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		341DA6E71F04991E00E0B002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		341DA6E91F04991E00E0B002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		341DA6EC1F04991E00E0B002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		341DA6EE1F04991E00E0B002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341DA6F31F04991E00E0B002 /* BeeLivePracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeLivePracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		341DA6F71F04991E00E0B002 /* BeeLivePracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeLivePracticeTests.m; sourceTree = "<group>"; };
+		341DA6F91F04991E00E0B002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341DA6FE1F04991E00E0B002 /* BeeLivePracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeLivePracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		341DA7021F04991E00E0B002 /* BeeLivePracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeLivePracticeUITests.m; sourceTree = "<group>"; };
+		341DA7041F04991E00E0B002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341DA7101F04995700E0B002 /* BHCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHCommon.h; sourceTree = "<group>"; };
+		341DA7111F04A02500E0B002 /* BHDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHDefines.h; sourceTree = "<group>"; };
+		341DA7161F04BD9000E0B002 /* BHConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHConfig.h; sourceTree = "<group>"; };
+		341DA7171F04BD9000E0B002 /* BHConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHConfig.m; sourceTree = "<group>"; };
+		341DA7191F04C85200E0B002 /* BHWatchDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHWatchDog.h; sourceTree = "<group>"; };
+		341DA71A1F04C85200E0B002 /* BHWatchDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHWatchDog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		341DA6D71F04991E00E0B002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341DA6F01F04991E00E0B002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341DA6FB1F04991E00E0B002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		341DA6D11F04991E00E0B002 = {
+			isa = PBXGroup;
+			children = (
+				341DA6DC1F04991E00E0B002 /* BeeLivePractice */,
+				341DA6F61F04991E00E0B002 /* BeeLivePracticeTests */,
+				341DA7011F04991E00E0B002 /* BeeLivePracticeUITests */,
+				341DA6DB1F04991E00E0B002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		341DA6DB1F04991E00E0B002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				341DA6DA1F04991E00E0B002 /* BeeLivePractice.app */,
+				341DA6F31F04991E00E0B002 /* BeeLivePracticeTests.xctest */,
+				341DA6FE1F04991E00E0B002 /* BeeLivePracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		341DA6DC1F04991E00E0B002 /* BeeLivePractice */ = {
+			isa = PBXGroup;
+			children = (
+				341DA7191F04C85200E0B002 /* BHWatchDog.h */,
+				341DA71A1F04C85200E0B002 /* BHWatchDog.m */,
+				341DA7161F04BD9000E0B002 /* BHConfig.h */,
+				341DA7171F04BD9000E0B002 /* BHConfig.m */,
+				341DA7101F04995700E0B002 /* BHCommon.h */,
+				341DA7111F04A02500E0B002 /* BHDefines.h */,
+				341DA6E01F04991E00E0B002 /* AppDelegate.h */,
+				341DA6E11F04991E00E0B002 /* AppDelegate.m */,
+				341DA6E31F04991E00E0B002 /* ViewController.h */,
+				341DA6E41F04991E00E0B002 /* ViewController.m */,
+				341DA6E61F04991E00E0B002 /* Main.storyboard */,
+				341DA6E91F04991E00E0B002 /* Assets.xcassets */,
+				341DA6EB1F04991E00E0B002 /* LaunchScreen.storyboard */,
+				341DA6EE1F04991E00E0B002 /* Info.plist */,
+				341DA6DD1F04991E00E0B002 /* Supporting Files */,
+			);
+			path = BeeLivePractice;
+			sourceTree = "<group>";
+		};
+		341DA6DD1F04991E00E0B002 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				341DA6DE1F04991E00E0B002 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		341DA6F61F04991E00E0B002 /* BeeLivePracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				341DA6F71F04991E00E0B002 /* BeeLivePracticeTests.m */,
+				341DA6F91F04991E00E0B002 /* Info.plist */,
+			);
+			path = BeeLivePracticeTests;
+			sourceTree = "<group>";
+		};
+		341DA7011F04991E00E0B002 /* BeeLivePracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				341DA7021F04991E00E0B002 /* BeeLivePracticeUITests.m */,
+				341DA7041F04991E00E0B002 /* Info.plist */,
+			);
+			path = BeeLivePracticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		341DA6D91F04991E00E0B002 /* BeeLivePractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341DA7071F04991E00E0B002 /* Build configuration list for PBXNativeTarget "BeeLivePractice" */;
+			buildPhases = (
+				341DA6D61F04991E00E0B002 /* Sources */,
+				341DA6D71F04991E00E0B002 /* Frameworks */,
+				341DA6D81F04991E00E0B002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeLivePractice;
+			productName = BeeLivePractice;
+			productReference = 341DA6DA1F04991E00E0B002 /* BeeLivePractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		341DA6F21F04991E00E0B002 /* BeeLivePracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341DA70A1F04991E00E0B002 /* Build configuration list for PBXNativeTarget "BeeLivePracticeTests" */;
+			buildPhases = (
+				341DA6EF1F04991E00E0B002 /* Sources */,
+				341DA6F01F04991E00E0B002 /* Frameworks */,
+				341DA6F11F04991E00E0B002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				341DA6F51F04991E00E0B002 /* PBXTargetDependency */,
+			);
+			name = BeeLivePracticeTests;
+			productName = BeeLivePracticeTests;
+			productReference = 341DA6F31F04991E00E0B002 /* BeeLivePracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		341DA6FD1F04991E00E0B002 /* BeeLivePracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341DA70D1F04991E00E0B002 /* Build configuration list for PBXNativeTarget "BeeLivePracticeUITests" */;
+			buildPhases = (
+				341DA6FA1F04991E00E0B002 /* Sources */,
+				341DA6FB1F04991E00E0B002 /* Frameworks */,
+				341DA6FC1F04991E00E0B002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				341DA7001F04991E00E0B002 /* PBXTargetDependency */,
+			);
+			name = BeeLivePracticeUITests;
+			productName = BeeLivePracticeUITests;
+			productReference = 341DA6FE1F04991E00E0B002 /* BeeLivePracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		341DA6D21F04991E00E0B002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = oucaizi;
+				TargetAttributes = {
+					341DA6D91F04991E00E0B002 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					341DA6F21F04991E00E0B002 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 341DA6D91F04991E00E0B002;
+					};
+					341DA6FD1F04991E00E0B002 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 341DA6D91F04991E00E0B002;
+					};
+				};
+			};
+			buildConfigurationList = 341DA6D51F04991E00E0B002 /* Build configuration list for PBXProject "BeeLivePractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 341DA6D11F04991E00E0B002;
+			productRefGroup = 341DA6DB1F04991E00E0B002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				341DA6D91F04991E00E0B002 /* BeeLivePractice */,
+				341DA6F21F04991E00E0B002 /* BeeLivePracticeTests */,
+				341DA6FD1F04991E00E0B002 /* BeeLivePracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		341DA6D81F04991E00E0B002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341DA6ED1F04991E00E0B002 /* LaunchScreen.storyboard in Resources */,
+				341DA6EA1F04991E00E0B002 /* Assets.xcassets in Resources */,
+				341DA6E81F04991E00E0B002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341DA6F11F04991E00E0B002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341DA6FC1F04991E00E0B002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		341DA6D61F04991E00E0B002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341DA6E51F04991E00E0B002 /* ViewController.m in Sources */,
+				341DA7181F04BD9000E0B002 /* BHConfig.m in Sources */,
+				341DA71B1F04C85200E0B002 /* BHWatchDog.m in Sources */,
+				341DA6E21F04991E00E0B002 /* AppDelegate.m in Sources */,
+				341DA6DF1F04991E00E0B002 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341DA6EF1F04991E00E0B002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341DA6F81F04991E00E0B002 /* BeeLivePracticeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341DA6FA1F04991E00E0B002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341DA7031F04991E00E0B002 /* BeeLivePracticeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		341DA6F51F04991E00E0B002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341DA6D91F04991E00E0B002 /* BeeLivePractice */;
+			targetProxy = 341DA6F41F04991E00E0B002 /* PBXContainerItemProxy */;
+		};
+		341DA7001F04991E00E0B002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341DA6D91F04991E00E0B002 /* BeeLivePractice */;
+			targetProxy = 341DA6FF1F04991E00E0B002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		341DA6E61F04991E00E0B002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341DA6E71F04991E00E0B002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		341DA6EB1F04991E00E0B002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341DA6EC1F04991E00E0B002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		341DA7051F04991E00E0B002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		341DA7061F04991E00E0B002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		341DA7081F04991E00E0B002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeeLivePractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoneme.xmc.BeeLivePractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		341DA7091F04991E00E0B002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeeLivePractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoneme.xmc.BeeLivePractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		341DA70B1F04991E00E0B002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeeLivePracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoneme.xmc.BeeLivePracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeLivePractice.app/BeeLivePractice";
+			};
+			name = Debug;
+		};
+		341DA70C1F04991E00E0B002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeeLivePracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoneme.xmc.BeeLivePracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeLivePractice.app/BeeLivePractice";
+			};
+			name = Release;
+		};
+		341DA70E1F04991E00E0B002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeeLivePracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoneme.xmc.BeeLivePracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeeLivePractice;
+			};
+			name = Debug;
+		};
+		341DA70F1F04991E00E0B002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeeLivePracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoneme.xmc.BeeLivePracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeeLivePractice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		341DA6D51F04991E00E0B002 /* Build configuration list for PBXProject "BeeLivePractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341DA7051F04991E00E0B002 /* Debug */,
+				341DA7061F04991E00E0B002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341DA7071F04991E00E0B002 /* Build configuration list for PBXNativeTarget "BeeLivePractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341DA7081F04991E00E0B002 /* Debug */,
+				341DA7091F04991E00E0B002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		341DA70A1F04991E00E0B002 /* Build configuration list for PBXNativeTarget "BeeLivePracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341DA70B1F04991E00E0B002 /* Debug */,
+				341DA70C1F04991E00E0B002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		341DA70D1F04991E00E0B002 /* Build configuration list for PBXNativeTarget "BeeLivePracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341DA70E1F04991E00E0B002 /* Debug */,
+				341DA70F1F04991E00E0B002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 341DA6D21F04991E00E0B002 /* Project object */;
+}
