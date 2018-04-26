@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
-    NSLog(@"pptsp");
+    NSLog(@"pptspp");
 
     NSLog(@"ggg");
     NSLog(@"ggs");
