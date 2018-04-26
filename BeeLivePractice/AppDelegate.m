@@ -19,6 +19,7 @@
     // Override point for customization after application launch.
     NSLog(@"ppt");
     NSLog(@"ggg");
+    NSLog(@"ggs");
     return YES;
 }
 
