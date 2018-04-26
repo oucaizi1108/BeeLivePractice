@@ -19,7 +19,7 @@
     // Override point for customization after application launch.
 
 
-    NSLog(@"pptspf");
+    NSLog(@"pptspff");
     NSLog(@"gg0");
 
     NSLog(@"ggg");
