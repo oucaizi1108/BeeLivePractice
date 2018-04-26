@@ -18,9 +18,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
-    NSLog(@"pptspf");
+    NSLog(@"pptspfd");
     NSLog(@"gg0");
     NSLog(@"ggg");
+    NSLog(@"ff");
     NSLog(@"ggs");
     return YES;
 }
